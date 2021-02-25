@@ -1,0 +1,15 @@
+input {
+    width: 30%;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+span.error { 
+    color: red;
+}

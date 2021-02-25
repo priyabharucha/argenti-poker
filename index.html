@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Poker Hand Sorter | Argenti</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="src/styles.css">
+    </head>
+
+    <body>
+        <div id="app">
+            
+            <h5>
+                Please change the default value of input boxes to count new Poker Hands and click on the <b>Count Hands</b>button.
+            </h5>
+            <input type="text" id="round1" value="4H 4C 6S 7S KD 2C 3S 9S 9D TD"> <span class="error"></span><br><br>
+            <input type="text" id="round2" value="5D 8C 9S JS AC 2C 5C 7D 8S QH"> <span class="error"></span><br><br>
+            <input type="text" id="round3" value="2D 9C AS AH AC 3D 6D 7D TD QD"> <span class="error"></span><br><br>
+            <input type="text" id="round4" value="4D 6S 9H QH QC 3D 6D 7H QD QS"> <span class="error"></span><br><br>
+            <input type="text" id="round5" value="2H 2D 4C 4D 4S 3C 3D 3S 9S 9D"> <span class="error"></span>
+            <br><br>
+            <button type="button" id="countHands" onclick="countHands()">Count Hands</button>
+        </div>
+        <h3 id="player1"></h3>
+        <h3 id="player2"></h3>
+
+        <script src="src/index.js"></script>
+    </body>
+</html>
